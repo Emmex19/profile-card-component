@@ -1,0 +1,83 @@
+html {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-bottom.svg), url(images/bg-pattern-top.svg);
+    background-position: right top 300px, left top -300px;
+    background-repeat: no-repeat no-repeat;
+    background-size: 700px, 700px;
+    /* background-origin: content-box, border-box; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.profile {
+    background-color: white;
+    background-image: url(images/bg-pattern-card.svg);
+    background-position: top;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 350px;
+    border-radius: 1rem;
+    line-height: 1.6;
+}
+
+.vic {
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.victor {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.vict {
+    width: 100%;
+    font-weight: 400;
+    text-align: center;
+    border-bottom: 1px solid hsl(0, 0%, 59%);
+    padding-bottom: 25px;
+}
+
+span {
+    font-weight: 700;
+    text-align: center;
+}
+
+footer {
+    font-weight: 400;
+    font-size: 0.7rem;
+}
+
+footer.london {
+    font-size: 0.8rem;
+}
+
+.engagement {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
